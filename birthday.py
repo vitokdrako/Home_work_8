@@ -31,8 +31,17 @@ def get_birthdays_per_week(users):
 
 
 users = [
-    {"name": "Bill Gates", "birthday": date(1955, 10, 12)},
-    {"name": "Steve Jobs", "birthday": date(1955, 2, 24)}
+    {"name": "Тарас Шевченко", "birthday": date(1814, 3, 9)},
+    {"name": "Леся Українка", "birthday": date(1871, 2, 25)},
+    {"name": "Андрій Шептицький", "birthday": date(1865, 7, 29)},
+    {"name": "Микола Лисенко", "birthday": date(1842, 3, 22)},
+    {"name": "Іван Франко", "birthday": date(1856, 8, 27)},
+    {"name": "Василь Симоненко", "birthday": date(1935, 1, 8)},
+    {"name": "Олесь Гончар", "birthday": date(1918, 4, 3)},
+    {"name": "Микола Гоголь", "birthday": date(1809, 3, 31)},
+    {"name": "Володимир Винниченко", "birthday": date(1880, 7, 27)},
+    {"name": "Сергій Корольов", "birthday": date(1907, 1, 12)}
 ]
+
 
 print(get_birthdays_per_week(users))
